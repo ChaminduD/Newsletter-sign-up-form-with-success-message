@@ -1,0 +1,17 @@
+.attribution{
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    color: hsl(231, 7%, 60%);
+}
+.attribution a{
+    color: hsl(4, 100%, 67%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media only screen and (min-width:600px){
+   
+}

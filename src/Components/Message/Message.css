@@ -1,0 +1,43 @@
+.message-container{
+    padding: 24px 24px 40px;
+    background-color: hsl(0, 0%, 100%);
+}
+.message{
+    margin-top: 124px;
+}
+.message img{
+    margin-bottom: 35px;
+}
+.message h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 26px;
+}
+.message p{
+    line-height: 24px;
+    padding-bottom: 238px;
+}
+
+@media only screen and (min-width:600px){
+    .full-message-container{
+        display: flex;
+        justify-content: center;
+    }
+    .message-container{
+        height: 522px;
+        width: 504px;
+        border-radius: 34px;
+        padding: 48px 64px;
+    }
+    .message{
+        margin-top: 0px;
+    }
+    .message h1{
+        font-size: 56px;
+        margin-top: 4px;
+        line-height: 54px;
+    }
+    .message p{
+        padding-bottom: 16px;
+    }
+}

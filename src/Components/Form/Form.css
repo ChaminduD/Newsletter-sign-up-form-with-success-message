@@ -1,0 +1,79 @@
+.full-form-container{
+    background-color: hsl(0, 0%, 100%);
+}
+picture img{
+    width: 100%;
+}
+.form-container{
+    padding: 32px 24px;
+}
+.form-container h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: hsl(234, 29%, 20%);
+}
+.form-container p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.form-container ul{
+    list-style: none;
+    position: relative;
+    margin: 24px 0 28px;
+}
+.form-container ul li{
+    padding: 0px 0px 10px 37px;
+    line-height: 24px;
+}
+.form-container ul li::before{
+    content: url('../../assets/images/icon-list.svg');
+    position: absolute;
+    left: 0;
+    transform: translateY(2px);
+}
+label{
+    font-size: 12px;
+    font-weight: 700;
+    color: hsl(234, 29%, 20%);
+}
+#error{
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+    font-weight: 700;
+    float: right;
+    transform: translate(-1px, 4px);
+    display: none;
+}
+input[type=email]{
+    width: 100%;
+    margin-top: 8px;
+    padding: 18px 23px;
+    font-size: 16px;
+    border: 1px solid hsl(231, 7%, 60%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+input[type=email]::placeholder{
+    color: hsl(231, 7%, 60%);
+}
+
+@media only screen and (min-width:600px){
+    .full-form-container{
+        height: 642px;
+        max-width: 930px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        border-radius: 38px;
+    }
+    picture img{
+        width: 450px;
+        padding: 25px;
+    }
+    .form-container{
+        padding: 90px 38px 90px 64px;
+    }
+    .form-container h1{
+        font-size: 56px;
+    }
+}
