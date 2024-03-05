@@ -1,9 +1,9 @@
 import './Button.css';
 
-function Button(props) {
+function Button({text, type, onClick}) {
     return (
         <>
-            <button>{props.text}</button>
+            <button type={type} onClick={onClick} >{text}</button>
         </>
     );
 }
