@@ -70,7 +70,7 @@ function Form({setSubmitSuccess, onSubmit}) {
                     <form>
                         <label htmlFor="email">Email address</label>
                         <span id='error'>{error}</span>
-                        <input type="email" name="" id="email" placeholder='email@company.com' value={inputEmail} onChange={handleChange} style={{ color: color, backgroundColor: bgColor , borderColor: borderColor}}/>
+                        <input type="email" name="email" id="email" placeholder='email@company.com' value={inputEmail} onChange={handleChange} style={{ color: color, backgroundColor: bgColor , borderColor: borderColor}}/>
                         <Button text='Subscribe to monthly newsletter' type={buttonType} onClick={handleSubmit}/>
                     </form>
                 </div>
