@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL here]()
-- Live Site URL: [Live site URL here]()
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/responsive-newsletter-signup-form-with-success-message-using-react-js-Ne_q5g6Hp3)
+- Live Site URL: [Live site URL here](https://chamindud.github.io/Newsletter-sign-up-form-with-success-message/)
 
 ## My process
 
